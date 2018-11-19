@@ -7,10 +7,10 @@ class Bot:
     def __init__(self,
                  logger: object,
                  api: object,
-                 pk: object='17843859910020958',
+                 pk: object='',
                  username: object='',
                  rank_token: object='',
-                 query: object='street art')-> object:
+                 query: object='')-> object:
         self.logger = logger
         self.api = api
         self.pk = pk

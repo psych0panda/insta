@@ -8,8 +8,8 @@ class Downloader:
 
     def __init__(self, logger: object,
                  api: object,
-                 pk: object = '1902334525193445278',
-                 username: object = 'kay.daniilovna') -> object:
+                 pk: object = '',
+                 username: object = '') -> object:
         self.logger = logger
         self.api = api
         self.pk = pk
