@@ -1,0 +1,14 @@
+2019-01-13 00:45:43,563 - __main__ - DEBUG - Unable to find file: test_credentials.json
+2019-01-13 00:45:43,651 - instagram_private_api.client - DEBUG - REQUEST: https://i.instagram.com/api/v1/si/fetch_headers/?challenge_type=signup&guid=cb44851416bb11e99c14448a5b2c81c5 POST
+2019-01-13 00:45:43,652 - instagram_private_api.client - DEBUG - DATA: b''
+2019-01-13 00:45:43,933 - instagram_private_api.client - DEBUG - REQUEST: https://i.instagram.com/api/v1/accounts/login/ POST
+2019-01-13 00:45:43,933 - instagram_private_api.client - DEBUG - DATA: b'ig_sig_key_version=4&signed_body=f2c60432caec47863a1d1b9891c191ba0a0d07e0606a64186e59b07c747fa0c7.%7B%22device_id%22%3A%22android-cb44851316bb11e9%22%2C%22guid%22%3A%22cb448512-16bb-11e9-9c14-448a5b2c81c5%22%2C%22adid%22%3A%224200847d-a472-354b-5893-aefff77e2b33%22%2C%22phone_id%22%3A%22817b4ccd-73c4-d1d5-ddd5-36282721b6dc%22%2C%22_csrftoken%22%3A%22eIwk3BBRtR4PgnV10lgw4nFyCYv6WbX1%22%2C%22username%22%3A%22harve.y.ster%22%2C%22password%22%3A%22rby647%22%2C%22login_attempt_count%22%3A%220%22%7D'
+2019-01-13 00:45:44,426 - instagram_private_api.client - DEBUG - RESPONSE: 400 {"message": "Sorry, there was a problem with your request.", "status": "fail", "error_type": "sentry_block"}
+2019-01-13 00:45:44,428 - __main__ - ERROR - ClientError sentry_block (Code: 400, Response: {"message": "Sorry, there was a problem with your request.", "status": "fail", "error_type": "sentry_block"})
+2019-01-13 01:36:45,666 - __main__ - DEBUG - Unable to find file: test_credentials.json
+2019-01-13 01:36:45,672 - instagram_private_api.client - DEBUG - REQUEST: https://i.instagram.com/api/v1/si/fetch_headers/?challenge_type=signup&guid=ec5fd4ae16c211e99c14448a5b2c81c5 POST
+2019-01-13 01:36:45,673 - instagram_private_api.client - DEBUG - DATA: b''
+2019-01-13 01:36:45,958 - instagram_private_api.client - DEBUG - REQUEST: https://i.instagram.com/api/v1/accounts/login/ POST
+2019-01-13 01:36:45,959 - instagram_private_api.client - DEBUG - DATA: b'ig_sig_key_version=4&signed_body=5f0c6687f5ab5798fd8357400472724f8c265b6e92c79dff2e7f226122b6924e.%7B%22device_id%22%3A%22android-ec5fd4ad16c211e9%22%2C%22guid%22%3A%22ec5fd4ac-16c2-11e9-9c14-448a5b2c81c5%22%2C%22adid%22%3A%224200847d-a472-354b-5893-aefff77e2b33%22%2C%22phone_id%22%3A%22652284e2-9e57-ea2e-90b1-f7c1dae9e595%22%2C%22_csrftoken%22%3A%22zcMJIgJO2qSdAxfScxEpvQBiQ2gsjXff%22%2C%22username%22%3A%22harve.y.ster%22%2C%22password%22%3A%229635263%22%2C%22login_attempt_count%22%3A%220%22%7D'
+2019-01-13 01:36:46,645 - instagram_private_api.client - DEBUG - RESPONSE: 400 {"message": "Sorry, there was a problem with your request.", "status": "fail", "error_type": "sentry_block"}
+2019-01-13 01:36:46,648 - __main__ - ERROR - ClientError sentry_block (Code: 400, Response: {"message": "Sorry, there was a problem with your request.", "status": "fail", "error_type": "sentry_block"})

@@ -78,7 +78,7 @@ if __name__ == '__main__':
                 settings=cached_settings)
             # bot = bot.Bot(logger, api, rank_token=cached_settings.get('uuid'))
             # bot.friend_request()
-            down = downloader.Downloader(logger, api)
+            down = downloader.Downloader(logger, api, is_url=True)
             down.run()
 
     except (ClientCookieExpiredError, ClientLoginRequiredError) as e:
