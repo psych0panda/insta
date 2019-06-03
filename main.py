@@ -5,13 +5,13 @@ import os.path
 import argparse
 import downloader
 import bot
+import sys
 try:
     from instagram_private_api import (
         Client, ClientError, ClientLoginError,
         ClientCookieExpiredError, ClientLoginRequiredError,
         __version__ as client_version)
 except ImportError:
-    import sys
     sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
     from instagram_private_api import (
         Client, ClientError, ClientLoginError,
